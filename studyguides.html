@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MSJHS AP Bio Study Guides</title>
+    <link rel="stylesheet" href="website.css">
+    <link href="<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="subHeader1">
+         <nav>
+             <a href="website.html"><img src="images/logo1.png"></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-x" onclick="hideMenu()"></i>
+                 <ul>
+                     <li><a href="website.html">HOME</a></li>
+                     <li><a href="about.html">ABOUT</a></li>
+                 </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()""></i>
+         </nav>
+         <h1>Study Guides</h1>
+    </section>
+
+    <!-----Study Guides----->
+
+    <section class="studyGuides">
+       <div class="row">
+           <div class="list">
+               <h1>Links to the Study Guides on Google Docs</h1>
+               <p></p>
+               <a href="https://docs.google.com/document/d/1Q1YmGbjcHGbAbKSARhaNA5pPkGM9cCmrcvGGj9BpG_c/edit?usp=sharing" target="_blank">•<strong>Chapters 2.5-9, 5.6 + 32.1 + 32.2, 10-12</strong> Semester 1 Collective Study Guide</a><br><br>
+               <a href="https://docs.google.com/document/d/1J3oikeE27vMz56WDyutmJi80f95t8y2R2o6PxQpmLLo/edit?usp=sharing" target="_blank">•<strong>Chapter 13-14</strong> Study Guide</a><br><br>
+               <a href="https://docs.google.com/document/d/167XSwdA60LhrlQ8KIKHOIif9N36yPI64tqWdG0WzBdA/edit?usp=sharing" target="_blank">•<strong>Chapter 15-16</strong> Study Guide</a><br><br>
+               <a href="https://docs.google.com/document/d/1wBVGc2GQNxtk9KnQNQyLhNq3trrmGj1HvsnGqp3zu9Q/edit?usp=sharing" target="_blank">•<strong>Chapter 17 + 24</strong> Study Guide</a><br><br>
+               <a href="https://docs.google.com/document/d/1EhirN8hExNq4jyzx3Vsl8BzQ_bRckrDLpw5vJXEhrOg/edit?usp=sharing" target="_blank">•<strong>Chapter 19-24.1</strong> Study Guide</a><br>
+
+           </div>
+
+       </div>
+    </section>
+
+    <!-----Java stuff for menu toggling thing----->
+    <script>
+
+        var navLink = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
