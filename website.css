@@ -179,3 +179,10 @@ nav .fa-solid{
 .list p{
     padding: 15px 0 25px;
 }
+.chart{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.chart img{
+    width: 100%;
+}
